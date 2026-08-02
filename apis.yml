@@ -1,8 +1,25 @@
 aid: swimply
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swimply.png
 name: Swimply
-description: 'Swimply is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Swimply is a peer-to-peer marketplace that lets people book private
+  swimming pools and other recreational spaces (family, party, and luxury pools plus
+  tennis, pickleball, and basketball courts) by the hour, and lets owners list and
+  monetize their spaces as hosts. Operating across the US, Canada, and Australia,
+  the platform reports over 4 million five-star experiences, 15,000+ active hosts,
+  and 15,000+ available spaces, and offers a 2026 Summer Pass membership. Backed by
+  Norwest Venture Partners. No public API or developer program was found at the time
+  of enrichment; this profile documents the company''s public web surface only.'
 url: https://raw.githubusercontent.com/api-evangelist/swimply/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Marketplace
+- Consumer
+- Travel and Hospitality
+- Booking
+- Peer to Peer
+- Recreation
+- Sharing Economy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,12 @@ maintainers:
 common:
 - type: Website
   url: https://swimply.com
+- type: BecomeAHost
+  url: https://swimply.com/become-a-host
+- type: DomainSecurity
+  url: security/swimply-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
