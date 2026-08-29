@@ -32,6 +32,9 @@ description: 'Swimply is a peer-to-peer marketplace that lets people book privat
   Norwest Venture Partners. No public API or developer program was found at the time
   of enrichment; this profile documents the company''s public web surface only.'
 url: https://raw.githubusercontent.com/api-evangelist/swimply/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer program was found at the time of enrichment; this profile documents the company's public web surface only."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
